@@ -32,6 +32,18 @@ body{
     float: left;
 }
 .adventure-item{
-    width: 31%;
+    width: 33.333333%;
+    float: left;
+}
+footer span{
+    width: 33.333333%;
+    float: left;
+}
+.social-link{
+    width: 33.333333%;
+    float: left;
+}
+.html{
+    width: 33.333333%;
     float: left;
 }
