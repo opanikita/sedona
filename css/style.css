@@ -29,7 +29,9 @@ body{
 .promo-item{
     width: 30%;
     display: inline-block;
+    float: left;
 }
 .adventure-item{
     width: 31%;
+    float: left;
 }
