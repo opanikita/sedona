@@ -17,3 +17,19 @@ body{
     min-width: 768px;
     margin: 0 auto;
 }
+.main-menu{
+    display: inline-block;
+}
+.main-menu a{
+    padding-right: 150px;
+}
+.main-title{
+    text-align: center;
+}
+.promo-item{
+    width: 30%;
+    display: inline-block;
+}
+.adventure-item{
+    width: 31%;
+}
