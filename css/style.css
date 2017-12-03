@@ -1,0 +1,20 @@
+*{
+    font-family: 'PT Sans Narrow', Arial, Tahoma, SF, sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+}
+body{
+    color: #ffffff;
+    line-height: calc (24/14);
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 768px;
+    margin: 0 auto;
+}
