@@ -4,7 +4,7 @@
     margin: 0 auto;
     font-size: 14px;
     box-sizing: border-box;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
 }
 body{
@@ -12,6 +12,7 @@ body{
     background-size: cover;
 }
 .container{
+    width: 100%;
     max-width: 1200px;
     min-width: 768px;
     padding: 0 40px;
@@ -32,6 +33,9 @@ body{
 }
 .main-title{
     text-align: center;
+}
+h1{
+    font-weight: bold; 
 }
 .promo-item{
     width: 30%;
