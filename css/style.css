@@ -17,6 +17,9 @@ body{
     min-width: 768px;
     margin: 0 auto;
 }
+.logo{
+    text-align: center;
+}
 .main-menu{
     display: inline-block;
 }
