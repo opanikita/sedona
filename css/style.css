@@ -29,7 +29,7 @@ body{
     display: inline-block;
 }
 .main-menu a{
-    padding: 64px;
+    padding: 57px;
 }
 .main-title{
     text-align: center;
@@ -38,12 +38,11 @@ h1{
     font-weight: bold; 
 }
 .promo-item{
-    width: 30%;
+    width: 28%;
     display: inline-block;
-    float: left;
 }
 .adventure-item{
-    width: 33.333333%;
+    width: 33%;
     float: left;
 }
 footer span{
