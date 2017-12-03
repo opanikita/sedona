@@ -12,9 +12,9 @@ body{
     background-size: cover;
 }
 .container{
-    width: 100%;
     max-width: 1200px;
     min-width: 768px;
+    padding: 0 40px;
     margin: 0 auto;
 }
 .logo{
@@ -28,7 +28,7 @@ body{
     display: inline-block;
 }
 .main-menu a{
-    padding-right: 129px;
+    padding: 64px;
 }
 .main-title{
     text-align: center;
