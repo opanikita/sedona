@@ -30,6 +30,8 @@ body{
 }
 .main-menu a{
     padding: 57px;
+    vertical-align: top;
+    text-align: center;
 }
 .main-title{
     text-align: center;
