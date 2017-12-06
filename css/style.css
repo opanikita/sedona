@@ -26,12 +26,8 @@ body{
     height: 450px;
 }
 .main-menu{
-    display: inline-block;
-}
-.main-menu a{
-    padding: 57px;
-    vertical-align: top;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 .main-title{
     text-align: center;
@@ -43,22 +39,17 @@ h1{
     width: 28%;
     display: inline-block;
 }
-.adventure-item{
-    width: 33%;
-    float: left;
+.adventure{
+    display: flex;
+    justify-content: space-between;
 }
-footer span{
-    width: 33.333333%;
-    float: left;
-    text-align: center;
+.adventure-item::before{
+    content: url("css/img/sprites.png")
 }
-.social-link{
-    width: 33.333333%;
-    float: left;
-    text-align: center;
+footer .container{
+    display: flex;
+    justify-content: space-between;
 }
-.html{
-    width: 33.333333%;
-    float: left;
-    text-align: center;
+.adventure-item::before:nth-child(2){
+    background-position: 0 0;
 }
