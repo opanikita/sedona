@@ -44,9 +44,13 @@ h1{
     width: 500px;
     padding-bottom: 20px;
 }
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .promo-item{
     width: 28%;
-    display: inline-block;
 }
 .adventure{
     display: flex;
@@ -57,12 +61,20 @@ h1{
     width: 76px;
     height: 76px;
     background: url(./img/sprites.png) 0 0 no-repeat;
-    position: fixed;
+    position: absolute;
+    left: 40%;
+}
+.adventure-item{
+    margin: 96px 0 20px 0;
+    position: relative;
 }
 footer .container{
     display: flex;
     justify-content: space-between;
 }
-.adventure-item::before:nth-child(2){
-    background-position: 0 0;
+.adventure-item h3 {
+    margin: 80px 0 20px 0;
+}
+.search-wrapper{
+    text-align: center;
 }
