@@ -18,22 +18,31 @@ body{
     padding: 0 40px;
     margin: 0 auto;
 }
-.logo{
+.intro{
     text-align: center;
 }
-.logo img{
+.intro img{
     width: 100%;
     height: 450px;
 }
 .main-menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.main-menu a{
+    color: #000;
 }
 .main-title{
     text-align: center;
+    padding-top: 50px;
 }
 h1{
+    display: block;
+    font-size: 18px;
     font-weight: bold; 
+    width: 500px;
+    padding-bottom: 20px;
 }
 .promo-item{
     width: 28%;
@@ -44,7 +53,11 @@ h1{
     justify-content: space-between;
 }
 .adventure-item::before{
-    content: url("css/img/sprites.png")
+    content: "";
+    width: 76px;
+    height: 76px;
+    background: url(./img/sprites.png) 0 0 no-repeat;
+    position: fixed;
 }
 footer .container{
     display: flex;
