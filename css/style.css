@@ -36,6 +36,7 @@ body{
 .main-title{
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 30px;
 }
 h1{
     display: block;
@@ -43,6 +44,10 @@ h1{
     font-weight: bold; 
     width: 500px;
     padding-bottom: 20px;
+}
+h3{
+    font-weight: bold;
+    text-align: center;
 }
 .promo{
     display: flex;
@@ -56,17 +61,31 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-.adventure-item::before{
+/*.adventure-item::before{
     content: "";
     width: 76px;
     height: 76px;
     background: url(./img/sprites.png) 0 0 no-repeat;
     position: absolute;
     left: 40%;
-}
+}*/
 .adventure-item{
     margin: 96px 0 20px 0;
     position: relative;
+    background: url(./img/sprites.png) repeat 0 0;
+    padding: 20px 0 0 20px;
+}
+.adventure-item: :nth-last-child(2n){
+    margin: 96px 0 20px 0;
+    position: relative;
+    background: url(./img/sprites.png) no-repeat 0 -89px;
+    padding: 20px 0 0 20px
+}
+.adventure-item: :nth-last-child(2n+1){
+    margin: 96px 0 20px 0;
+    position: relative;
+    background: url(./img/sprites.png) no-repeat 0 -178px;
+    padding: 20px 0 0 20px
 }
 footer .container{
     display: flex;
