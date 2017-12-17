@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Hotels">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Hotels</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <nav class="main-menu">
+                <a href="#">Информация</a>
+                <a href="#">Фото и видео</a>
+                <a href="index.html">
+                    <img src="css/img/logo.png" alt="">
+                </a>
+                <a href="#">Карта штата</a>
+                <a href="hotels.html">Гостиницы</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filter">
+            <fieldset class="infrastructure">
+                <legend>Инфраструктура:</legend>
+                    <div class="filter-item">
+                        <input id="cbox1" type="checkbox" checked>
+                        <label for="cbox1">Бассейн</label>
+                    </div>
+                    <div class="filter-item">
+                        <input id="cbox2" type="checkbox">
+                        <label for="cbox2">Парковка</label>
+                    </div>
+                    <div class="filter-item">
+                        <input id="cbox3" type="checkbox">
+                        <label for="cbox3">Wi-fi</label>
+                    </div>
+            </fieldset>  
+            <fieldset class="type-rooms">
+                <legend>Тип жилья:</legend>
+                    <div class="filter-item">
+                        <input id="cbox4" type="checkbox" checked>
+                        <label for="cbox4">Гостиница</label>
+                    </div>
+                    <div class="filter-item">
+                        <input id="cbox5" type="checkbox" checked>
+                        <label for="cbox5">Мотель</label>
+                    </div><div class="filter-item">
+                        <input id="cbox6" type="checkbox" checked>
+                        <label for="cbox6">Апартаменты</label>
+                    </div>
+            </fieldset>        
+        </div>
+        <div class="result">
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <span>#Visitsedona</span>
+            <div class="social-link">
+                <a class="social-btn">#</a>
+                <a class="social-btn">#</a>
+                <a class="social-btn">#</a>
+            </div>
+            <div class="html">
+                <a class="footer-btn" href="https://htmlacademy.ru" title="html">Html academy</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
