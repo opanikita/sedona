@@ -38,7 +38,7 @@ body{
     padding-top: 50px;
     margin-bottom: 30px;
 }
-h1{
+.main-title h1{
     display: block;
     font-size: 18px;
     font-weight: bold; 
@@ -97,4 +97,11 @@ footer .container{
 }
 .search-wrapper{
     text-align: center;
+}
+.result h1{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold; 
+    width: 150px;
+    padding-bottom: 20px
 }
