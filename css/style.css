@@ -105,3 +105,6 @@ footer .container{
     width: 150px;
     padding-bottom: 20px
 }
+.filter-slider{
+    display: flex;
+}
