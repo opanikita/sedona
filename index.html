@@ -85,6 +85,22 @@
                 <h4>Заинтересовались?</h4>
                 <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
                 <button>Поиск гостиницы в Седоне</button>
+
+                <div id="map"></div>
+                <script>
+                  function initMap() {
+                    // Create a map object and specify the DOM element for display.
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                      center: {lat: -34.397, lng: 150.644},
+                      zoom: 8
+                    });
+                  }
+            
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVht15DUCHyP9KjQng0w_fGghhAibn9Y0&callback=initMap"
+                async defer></script>
+              </body>
+            
             </div>
         </div>
     </main>
@@ -92,15 +108,15 @@
         <div class="container">
             <span>#Visitsedona</span>
             <div class="social-link">
-                <a class="social-btn">#</a>
-                <a class="social-btn">#</a>
-                <a class="social-btn">#</a>
+                <a class="social-btn" href="#"></a>
+                <a class="social-btn" href="#"></a>
+                <a class="social-btn" href="#"></a>
             </div>
             <div class="html">
-                <a class="footer-btn" href="https://htmlacademy.ru" title="html">Html academy</a>
+                <span>Website by</span>
+                <a class="footer-btn" href="https://htmlacademy.ru">Html academy</a>
             </div>
         </div>
-
     </footer>
 </body>
 
