@@ -56,8 +56,15 @@ h3{
     align-items: center;
 }
 .promo-item{
-    width: 28%;
+    /*width: 28%;*/
     text-align: center;
+    background: #81b3d2;
+}
+.promo h2{
+    margin: 40px 0 40px 0;
+}
+.promo-item p{
+    margin: 20px 0 0 0;
 }
 .adventure{
     display: flex;
