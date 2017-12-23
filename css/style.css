@@ -71,7 +71,7 @@ h3{
     display: flex;
     background: #ffffff;
 }
-.adventure:nth-child(2n){
+.adventure:nth-last-child(1){
     background: #eeeeee;
 }
 .adventure-item{
