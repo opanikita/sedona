@@ -138,6 +138,10 @@ footer{
 .search-btn{
     width: 600px;
     height: 60px;
+    background: #766357;
+}
+footer span{
+    line-height: 46px;
 }
 .infrastructure, .type-rooms{
     border: 0;
