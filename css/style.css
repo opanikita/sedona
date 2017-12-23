@@ -59,6 +59,7 @@ h3{
     /*width: 28%;*/
     text-align: center;
     background: #81b3d2;
+    height: 256px;
 }
 .promo h2{
     margin: 40px 0 40px 0;
@@ -69,6 +70,9 @@ h3{
 .adventure{
     display: flex;
     justify-content: space-between;
+}
+.adventure-item{
+    text-align: center;
 }
 /*.adventure-item::before{
     content: "";
@@ -127,6 +131,10 @@ footer{
 }
 .search-wrapper{
     text-align: center;
+}
+.search-btn{
+    width: 600px;
+    height: 60px;
 }
 .result h1{
     display: inline-block;
