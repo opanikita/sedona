@@ -68,6 +68,7 @@ h3{
 }
 .promo-item p{
     margin: 20px 0 0 0;
+    font-size: 13px;
 }
 .adventure{
     display: flex;
@@ -78,6 +79,7 @@ h3{
 }
 .adventure-item{
     text-align: center;
+    width: 28%;
 }
 /*.adventure-item::before{
     content: "";
