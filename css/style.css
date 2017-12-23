@@ -71,6 +71,9 @@ h3{
     display: flex;
     justify-content: space-between;
 }
+.adventure:nth-child(2){
+    background: #eeeeee;
+}
 .adventure-item{
     text-align: center;
 }
@@ -136,6 +139,13 @@ footer{
     width: 600px;
     height: 60px;
 }
+.infrastructure, .type-rooms{
+    border: 0;
+}
+.filter-item{
+    margin-bottom: 20px;
+}
+
 .result h1{
     display: inline-block;
     font-size: 18px;
