@@ -144,6 +144,10 @@ footer{
     height: 60px;
     background: #766357;
 }
+#map{
+    height: 400px;
+    width: 100%;
+}
 footer span{
     line-height: 46px;
 }
@@ -153,7 +157,6 @@ footer span{
 .filter-item{
     margin-bottom: 20px;
 }
-
 .result h1{
     display: inline-block;
     font-size: 18px;
