@@ -175,7 +175,7 @@ footer span{
 }
 .filter-slider{
     display: flex;
-    background: url("css/img/filter background.jpg")center no-repeat;
+    background: url("../css/img/filter background.jpg")center no-repeat;
 }
 .filter-range{
     margin: 50px auto;
