@@ -177,6 +177,7 @@ footer span{
 .filter-slider{
     display: flex;
     background: url("../css/img/filter background.jpg")center no-repeat;
+    color: #ffffff;
 }
 .filter-range{
     margin: 50px auto;
@@ -188,11 +189,21 @@ footer span{
 }
 input::-moz-placeholder{
     text-align: center;
+    color: #ffffff;
 }
 .price-controls{
+    position: relative;
     height: 36px;
     margin-bottom: 20px;
     border: 2px solid #000000;
+    font-size: 0;
+}
+.price-controls::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 22px;
+    color: #ffffff;
 }
 .price-controls label{
     display: inline-block;
@@ -200,12 +211,12 @@ input::-moz-placeholder{
     line-height: 38px;
 }
 .price-controls input{
-    width: 100px;
+    width: 50px;
     margin: 0;
     background: none;
     border: none; 
 }
 .price-controls .min-price, .price-controls .max-price{
-    width: 90px;
+    width: 130px;
     padding-left: 65px;
 }
