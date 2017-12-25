@@ -204,6 +204,9 @@ input::-moz-placeholder{
     width: 2px;
     height: 22px;
     color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .price-controls label{
     display: inline-block;
@@ -218,5 +221,13 @@ input::-moz-placeholder{
 }
 .price-controls .min-price, .price-controls .max-price{
     width: 130px;
-    padding-left: 65px;
+    padding-left: 30px;
+}
+.range-controls{
+    position: relative;
+    margin-bottom: 32px;
+}
+.range-controls .scale{
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
 }
