@@ -60,6 +60,7 @@ h3{
     text-align: center;
     background: #81b3d2;
     height: 256px;
+    color: #ffffff;
 }
 .promo h2{
     margin: 40px 0 40px 0;
@@ -193,9 +194,18 @@ input::-moz-placeholder{
     margin-bottom: 20px;
     border: 2px solid #000000;
 }
+.price-controls label{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 38px;
+}
 .price-controls input{
     width: 100px;
     margin: 0;
     background: none;
     border: none; 
+}
+.price-controls .min-price, .price-controls .max-price{
+    width: 90px;
+    padding-left: 65px;
 }
