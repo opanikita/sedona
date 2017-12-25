@@ -231,14 +231,15 @@ input::-moz-placeholder{
     position: relative;
     margin-bottom: 32px;
 }
-.range-controls .scale{
+.scale{
     height: 2px;
     background: rgba(255, 255, 255, 0.3);
 }
-.range-controls .bar{
+.bar{
     width: 80%;
     height: 2px;
     background: #ffffff;
+    margin: 0;
 }
 .range-toggle{
     position: absolute;
