@@ -235,7 +235,7 @@ input::-moz-placeholder{
     height: 2px;
     background: rgba(255, 255, 255, 0.3);
 }
-.bar{
+.range-controls .bar{
     width: 80%;
     height: 2px;
     background: #ffffff;
