@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 body{
-    line-height: calc (24/14);
+    line-height: calc(24/14);
     background-size: cover;
 }
 .container{
@@ -199,7 +199,7 @@ input::-moz-placeholder{
     position: relative;
     height: 36px;
     margin-bottom: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #fff;
     font-size: 0;
 }
 .price-controls::after{
@@ -207,7 +207,7 @@ input::-moz-placeholder{
     position: absolute;
     width: 2px;
     height: 22px;
-    color: #ffffff;
+    background: #ffffff;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
