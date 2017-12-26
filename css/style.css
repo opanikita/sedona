@@ -61,14 +61,16 @@ h3{
 .promo{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .promo-item{
     width: 30%;
     text-align: center;
     background: #81b3d2;
-    height: 256px;
     color: #ffffff;
+}
+.promo-img {
+    font-size: 0;
+    line-height: 0;
 }
 .promo h2{
     margin: 40px 0 40px 0;
