@@ -177,7 +177,8 @@ h4{
     margin-left: 0;
 }
 legend{
-    margin-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 23px;
 }
 .filter-item{
     margin-bottom: 20px;
