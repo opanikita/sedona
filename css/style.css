@@ -173,6 +173,9 @@ h4{
     border: 0;
     margin-top: 30px;
 }
+.type-rooms{
+    margin-left: 0;
+}
 legend{
     margin-bottom: 15px;
 }
@@ -230,6 +233,7 @@ input::-moz-placeholder{
     margin: 0;
     background: none;
     border: none; 
+    color: #fff;
 }
 .price-controls .min-price, .price-controls .max-price{
     width: 130px;
@@ -242,6 +246,7 @@ input::-moz-placeholder{
 .scale{
     height: 2px;
     background: rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
 }
 .bar{
     width: 80%;
@@ -277,6 +282,7 @@ input::-moz-placeholder{
     background: transparent;
     font-size: 13px;
     cursor: pointer;
+    color: #fff;
 }
 .btn-transparent:hover{
     color: #ffffff;
