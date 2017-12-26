@@ -85,9 +85,6 @@ h3{
     display: flex;
     background: #ffffff;
 }
-.social-btn:nth-child(1){
-    background: #fff;
-}
 .adventure:nth-of-type(6){
     background: #eeeeee;
 }
