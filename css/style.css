@@ -165,6 +165,9 @@ h4{
 .search-wrapper p{
     padding-bottom: 20px;
 }
+.modal{
+    display: none;
+}
 #map{
     height: 400px;
     width: 100%;
