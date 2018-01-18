@@ -196,6 +196,19 @@ legend{
     padding-top: 15px;
     margin-bottom: 23px;
 }
+.filter-item label::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+}
+
+.filter-item input:checked + label::after{
+    background: url("css/img/checkbox-on копия 2.png");
+}
 .filter-item{
     margin-bottom: 20px;
 }
