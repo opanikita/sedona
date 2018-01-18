@@ -167,6 +167,9 @@ h4{
 }
 .modal{
     display: none;
+    width: 600px;
+}.people-counter{
+    display: flex;
 }
 #map{
     height: 400px;
