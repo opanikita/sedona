@@ -171,6 +171,16 @@ h4{
 }.people-counter{
     display: flex;
 }
+.modal input{
+    width: 35%;
+    margin-left: 20px;
+}
+.modal label{
+    width: 65%;
+}
+.people-field{
+    margin: 0;
+}
 #map{
     height: 400px;
     width: 100%;
