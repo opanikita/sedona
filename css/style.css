@@ -196,6 +196,9 @@ legend{
     padding-top: 15px;
     margin-bottom: 23px;
 }
+.filter-item label{
+    position: relative;
+}
 .filter-item label::after{
     content: "";
     position: absolute;
@@ -207,7 +210,7 @@ legend{
 }
 
 .filter-item input:checked + label::after{
-    background: url("css/img/checkbox-on.png");
+    background: url("../css/img/checkbox-on.png");
 }
 .filter-item{
     margin-bottom: 20px;
