@@ -196,8 +196,12 @@ legend{
     padding-top: 15px;
     margin-bottom: 23px;
 }
+.filter-item input{
+    display: none;
+}
 .filter-item label{
     position: relative;
+    padding: 4px 0 0 26px;
 }
 .filter-item label::after{
     content: "";
@@ -206,7 +210,7 @@ legend{
     left: 0;
     width: 20px;
     height: 20px;
-    border: 2px solid #000;
+    border: 2px solid #ffffff;
 }
 
 .filter-item input:checked + label::after{
