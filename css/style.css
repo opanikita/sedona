@@ -207,7 +207,7 @@ legend{
 }
 
 .filter-item input:checked + label::after{
-    background: url("css/img/checkbox-on копия 2.png");
+    background: url("css/img/checkbox-on.png");
 }
 .filter-item{
     margin-bottom: 20px;
