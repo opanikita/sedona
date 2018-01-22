@@ -97,6 +97,33 @@
                 <p>Укажите предполагаемые даты поездки,
                     <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
                 <button class="search-btn">Поиск гостиницы в Седоне</button>
+                <div class="modal">
+                    <form class="search" action="" method="">
+                        <div class="modal-field">
+                            <label for="text1">Дата заезда:</label>
+                            <input id="text1" type="text" placeholder="24 апреля 2017">
+                        </div>
+                        <div class="modal-field">
+                            <label for="text2">Дата выезда:</label>
+                            <input id="text2" type="text" placeholder="4 июля 2017">
+                        </div>
+                        <div class="people-counter">
+                            <span>Взрослые:</span>
+                            <div class="people-field">
+                                <button class="people inc"></button>
+                                <span>2</span>
+                                <button class="people inc"></button>
+                            </div>
+                            <span>Дети:</span>
+                            <div class="people-field">
+                                <button class="people inc"></button>
+                                <span></span>
+                                <button class="people inc"></button>
+                            </div>
+                        </div>
+                        <button class="form-btn">Найти</button>
+                    </form>
+                </div>
             </div>
             <div id="map"></div>
         </main>
@@ -114,33 +141,6 @@
                 </div>
             </div>
         </footer>
-        <div class="modal">
-            <form class="search" action="" method="">
-                <div class="modal-field">
-                    <label for="text1">Дата заезда:</label>
-                    <input id="text1" type="text" placeholder="24 апреля 2017">
-                </div>
-                <div class="modal-field">
-                    <label for="text2">Дата выезда:</label>
-                    <input id="text2" type="text" placeholder="4 июля 2017">
-                </div>
-                <div class="people-counter">
-                    <span>Взрослые:</span>
-                    <div class="people-field">
-                        <button class="people inc"></button>
-                        <span>2</span>
-                        <button class="people inc"></button>
-                    </div>
-                    <span>Дети:</span>
-                    <div class="people-field">
-                        <button class="people inc"></button>
-                        <span></span>
-                        <button class="people inc"></button>
-                    </div>
-                </div>
-                <button class="form-btn">Найти</button>
-            </form>
-        </div>
     </div>
     <script src="js/script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVht15DUCHyP9KjQng0w_fGghhAibn9Y0&callback=initMap" async
