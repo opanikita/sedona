@@ -92,32 +92,6 @@ h3{
     text-align: center;
     width: 28%;
 }
-/*.adventure-item::before{
-    content: "";
-    width: 76px;
-    height: 76px;
-    background: url(./img/sprites.png) 0 0 no-repeat;
-    position: absolute;
-    left: 43%;
-}
-.adventure-item{
-    margin: 96px 0 20px 0;
-    position: relative;
-    background: url(./img/sprites.png) no-repeat 0 0;
-    padding: 20px 0 0 20px;
-}
-/*.adventure-item:nth-last-child(2n){
-    margin: 96px 0 20px 0;
-    position: relative;
-    background: url(./img/sprites.png) no-repeat 0 -89px;
-    padding: 20px 0 0 20px
-}
-.adventure-item:nth-last-child(2n+1){
-    margin: 96px 0 20px 0;
-    position: relative;
-    background: url(./img/sprites.png) no-repeat 0 -178px;
-    padding: 20px 0 0 20px
-}*/
 .footer{
     display: flex;
     justify-content: space-between;
