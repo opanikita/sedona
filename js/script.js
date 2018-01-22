@@ -13,6 +13,6 @@ var btn = document.querySelector('.search-btn');
 var modal = document.querySelector('modal');
 
 btn.addEventListener('click', function (event) {
-    event.preventDefault;
+    event.preventDefault();
     modal.classList.toggle('open');
-})
+});
