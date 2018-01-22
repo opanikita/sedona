@@ -9,3 +9,10 @@ function initMap() {
         map: map
     });
 }
+var btn = document.querySelector('.search-btn');
+var modal = document.querySelector('modal');
+
+btn.addEventListener('click', function (event) {
+    event.preventDefault;
+    modal.classList.toggle('open');
+})
