@@ -125,9 +125,10 @@ footer{
 .search-wrapper{
     text-align: center;
     padding: 40px 0 0 0;
+    position: relative;
 }
 .search-btn{
-    width: 600px;
+    min-width: 600px;
     height: 60px;
     background: #766357;
 }
@@ -140,8 +141,12 @@ h4{
     padding-bottom: 20px;
 }
 .modal{
+    position: absolute;
     opacity: 0;
-    width: 600px;
+    min-width: 600px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-100%);
 }.people-counter{
     display: flex;
 }
