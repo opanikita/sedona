@@ -140,7 +140,7 @@ h4{
     padding-bottom: 20px;
 }
 .modal{
-    display: none;
+    opacity: 0;
     width: 600px;
 }.people-counter{
     display: flex;
