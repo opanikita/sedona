@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
+    <div class="container">
+        <header>
             <nav class="main-menu">
                 <a href="#">Информация</a>
                 <a href="#">Фото и видео</a>
@@ -23,10 +23,8 @@
                 <a href="#">Карта штата</a>
                 <a href="hotels.html">Гостиницы</a>
             </nav>
-        </div>
-    </header>
-    <main>
-        <div class="container">
+        </header>
+        <main>
             <div class="intro">
                 <img src="css/img/intro.jpg">
             </div>
@@ -36,11 +34,12 @@
             </div>
             <div class="promo">
                 <div class="promo-item">
-                    <h2>Настоящий <br>
-                         городок</h2>
+                    <h2>Настоящий
+                        <br> городок
+                    </h2>
                     <span>— №1 —</span>
-                    <p>Седона — не аттракицион для туристов,<br>
-                         там течет своя жизнь</p>
+                    <p>Седона — не аттракицион для туристов,
+                        <br> там течет своя жизнь</p>
                 </div>
                 <div class="promo-img">
                     <img src="css/img/promo.jpg" alt="">
@@ -65,102 +64,98 @@
                     <img src="css/img/promo2.jpg" alt="">
                 </div>
                 <div class="promo-item">
-                        <h2>Там есть Мост Дьявола</h2>
-                        <span>— №2 —</span>
-                        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                    <h2>Там есть Мост Дьявола</h2>
+                    <span>— №2 —</span>
+                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
                 </div>
             </div>
             <div class="adventure">
                 <div class="adventure-item">
-                    <h3>Небольшая<br>
-                        площадь</h3>
+                    <h3>Небольшая
+                        <br> площадь
+                    </h3>
                     <span>— №3 —</span>
                     <p>Все достопримечательности находятся очень близко</p>
                 </div>
                 <div class="adventure-item">
-                    <h3>Красивая<br>
-                        дорога</h3>
+                    <h3>Красивая
+                        <br> дорога
+                    </h3>
                     <span>— №4 —</span>
                     <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                 </div>
                 <div class="adventure-item">
-                    <h3>Мало<br>
-                        туристов</h3>
+                    <h3>Мало
+                        <br> туристов
+                    </h3>
                     <span>— №5 —</span>
                     <p>Большинство едет в Гранд Каньон и толпится там</p>
                 </div>
             </div>
             <div class="search-wrapper">
                 <h4>Заинтересовались?</h4>
-                <p>Укажите предполагаемые даты поездки,<br>
-                    и мы покажем вам лучшие предложения гостиниц в седоне</p>
+                <p>Укажите предполагаемые даты поездки,
+                    <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
                 <button class="search-btn">Поиск гостиницы в Седоне</button>
-
-                <div class="modal">
-                    <form class="search" action="" method="">
-                        <div class="modal-field">
-                        <label for="text1">Дата заезда:</label>
-                        <input id="text1" type="text" placeholder="24 апреля 2017">
-                        </div>
-                        <div class="modal-field">
-                        <label for="text2">Дата выезда:</label>
-                        <input id="text2" type="text" placeholder="4 июля 2017">
-                        </div>
-                        <div class="people-counter">
-                            <span>Взрослые:</span>
-                            <div class="people-field">
-                                <button class="people inc"></button>
-                                <span>2</span>
-                                <button class="people inc"></button>
-                            </div>
-                            <span>Дети:</span>                          
-                            <div class="people-field">
-                                <button class="people inc"></button>
-                                <span></span>
-                                <button class="people inc"></button>
-                            </div>
-                        </div>                      
-                        <button class="form-btn">Найти</button>
-                    </form>
-                </div>
-
+            </div>
             <div id="map"></div>
-
-            <script>
-                function initMap() {
-                  var uluru = {lat: 34.8543583, lng: -111.8651786};
-                  var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 8,
-                    center: uluru
-                  });
-                  var marker = new google.maps.Marker({
-                    position: uluru,
-                    map: map
-                  });
-                }
-              </script>
-              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVht15DUCHyP9KjQng0w_fGghhAibn9Y0&callback=initMap"
-              async defer></script>         
-                
+        </main>
+        <footer>
+            <div class="footer">
+                <span>#Visitsedona</span>
+                <div class="social-link">
+                    <a class="social-btn" href="#"></a>
+                    <a class="social-btn" href="#"></a>
+                    <a class="social-btn" href="#"></a>
+                </div>
+                <div class="html">
+                    <span>Website by</span>
+                    <a class="footer-btn" href="https://htmlacademy.ru">Html academy</a>
+                </div>
             </div>
-              </body>
+        </footer>
+        <div class="modal">
+            <form class="search" action="" method="">
+                <div class="modal-field">
+                    <label for="text1">Дата заезда:</label>
+                    <input id="text1" type="text" placeholder="24 апреля 2017">
+                </div>
+                <div class="modal-field">
+                    <label for="text2">Дата выезда:</label>
+                    <input id="text2" type="text" placeholder="4 июля 2017">
+                </div>
+                <div class="people-counter">
+                    <span>Взрослые:</span>
+                    <div class="people-field">
+                        <button class="people inc"></button>
+                        <span>2</span>
+                        <button class="people inc"></button>
+                    </div>
+                    <span>Дети:</span>
+                    <div class="people-field">
+                        <button class="people inc"></button>
+                        <span></span>
+                        <button class="people inc"></button>
+                    </div>
+                </div>
+                <button class="form-btn">Найти</button>
+            </form>
         </div>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <span>#Visitsedona</span>
-            <div class="social-link">
-                <a class="social-btn" href="#"></a>
-                <a class="social-btn" href="#"></a>
-                <a class="social-btn" href="#"></a>
-            </div>
-            <div class="html">
-                <span>Website by</span>
-                <a class="footer-btn" href="https://htmlacademy.ru">Html academy</a>
-            </div>
-        </div>
-    </footer>
+    </div>
+    <script>
+        function initMap() {
+            var uluru = { lat: 34.8543583, lng: -111.8651786 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVht15DUCHyP9KjQng0w_fGghhAibn9Y0&callback=initMap" async
+        defer></script>
 </body>
-
 </html>

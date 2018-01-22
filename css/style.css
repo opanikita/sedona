@@ -13,7 +13,7 @@ body{
 }
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     min-width: 768px;
     padding: 0 40px;
     margin: 0 auto;
@@ -118,7 +118,7 @@ h3{
     background: url(./img/sprites.png) no-repeat 0 -178px;
     padding: 20px 0 0 20px
 }*/
-footer .container{
+.footer{
     display: flex;
     justify-content: space-between;
     align-items: center;    
