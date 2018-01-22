@@ -10,7 +10,7 @@ function initMap() {
     });
 }
 var btn = document.querySelector('.search-btn');
-var modal = document.querySelector('modal');
+var modal = document.querySelector('.modal');
 
 btn.addEventListener('click', function (event) {
     event.preventDefault();
