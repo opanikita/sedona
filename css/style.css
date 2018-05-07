@@ -143,8 +143,8 @@ h4{
 .modal{
     position: absolute;
     opacity: 0;
-    min-width: 600px;
-    min-height: 300px;
+    min-width: 576px;
+    min-height: 488px;
     left: 50%;
     bottom: 0;
     transform: translate(-50%,100%);
@@ -161,6 +161,10 @@ h4{
 }
 .people-field{
     margin: 0;
+}
+.form-btn{
+    width: 457px;
+    height: 47px;
 }
 #map{
     height: 400px;
