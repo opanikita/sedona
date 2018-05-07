@@ -273,6 +273,13 @@ input::-moz-placeholder{
     margin: 0;
 }
 .range-toggle{
+    width: 100%;
+    cursor: pointer;
+    height: 20px;
+    border-radius: 50%;
+}
+/*
+.range-toggle{
     position: absolute;
     top: -9px;
     width: 4px;
@@ -288,7 +295,7 @@ input::-moz-placeholder{
 }
 .range-toggle-max{
     left: 80%;
-}
+}*/
 .btn-transparent{
     display: block;
     margin: 0 auto;
@@ -304,7 +311,7 @@ input::-moz-placeholder{
 }
 .btn-transparent:hover{
     color: #ffffff;
-    background: #000000;
+    background: #ffffff;
 }
 .open{
     opacity: 1;
